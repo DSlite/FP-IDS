@@ -4,7 +4,8 @@ from discord_webhook import DiscordWebhook
 
 from . import shell
 
-DISCORD_WEBHOOK = 'https://discord.com/api/webhooks/797797383206469662/xgTQ54_WslKJEXuYQoN3NVkIa2yjpsSocQ_SvWNcyq0cCyWe9-2G8Nrtu6bUcFhISUcS'
+#Diisi dengan Token Webhook
+DISCORD_WEBHOOK = ''
 
 class IO(object):
     _ANSI_CSI_RE = re.compile('\001?\033\\[((?:\\d|;)*)([a-zA-Z])\002?') 
@@ -88,5 +89,8 @@ class IO(object):
         """
         Writes a given string to the discord webhook.
         """
+        if not DISCORD_WEBHOOK:
+            return
+
         webhook = DiscordWebhook(url=IO.DiscordUrl, content=text)
         webhook.execute()
