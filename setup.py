@@ -42,7 +42,7 @@ AUTHOR = 'bitbrute'
 AUTHOR_EMAIL = 'bitbrute@gmail.com'
 LICENSE = 'MIT'
 VERSION = get_version()
-URL = 'https://github.com/bitbrute/evillimiter'
+URL = 'https://github.com/DSlite/FP-IDS'
 DESCRIPTION = get_description()
 KEYWORDS = ["evillimiter", "limit", "bandwidth", "network"]
 PACKAGES = find_packages()
@@ -69,7 +69,8 @@ INSTALL_REQUIRES = ['colorama',
                     'netifaces',
                     'tqdm',
                     'scapy',
-                    'terminaltables'
+                    'terminaltables',
+                    'discord-webhook'
                     ]
 
 CMDCLASS = { 'clean': CleanCommand }

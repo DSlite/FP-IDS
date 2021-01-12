@@ -335,7 +335,7 @@ Dilimit menjadi {} karena melebihi batas maksimum {}```
                 self.limiter.block(host, direction)
                 self.bandwidth_monitor.add(host)
                 IO.ok('{}{}{r} {} {}blocked{r}.'.format(IO.Fore.LIGHTYELLOW_EX, host.ip, Direction.pretty_direction(direction), IO.Fore.RED, r=IO.Style.RESET_ALL))
-                discordText += '{} pada IP {} diblokir\n'.format(Direction.pretty_direction(direction), host.ip, rate)
+                discordText += '{} pada IP {} diblokir\n'.format(Direction.pretty_direction(direction), host.ip)
         
         discordText += '```'
         if hosts is not None and len(hosts) > 0:
