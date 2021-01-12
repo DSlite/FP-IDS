@@ -48,17 +48,21 @@ Untuk mengirimkan notifikasi ke Discord, menggunakan discord-webhook sehingga la
 ### Contoh Penggunaan
 
 1. **Scanning**
+
 ![image](https://user-images.githubusercontent.com/17781660/104325424-9bbcf380-5523-11eb-9a11-27812f0ff74c.png)
 ![image](https://user-images.githubusercontent.com/17781660/104325519-ad9e9680-5523-11eb-8b4f-4d16d216c9bc.png)
 
 2. **Limiting**
+
 ![image](https://user-images.githubusercontent.com/17781660/104325653-d4f56380-5523-11eb-8e08-07fe01ac22a5.png)
 ![image](https://user-images.githubusercontent.com/17781660/104325679-dd4d9e80-5523-11eb-8068-4351472ff7ad.png)
 
 3. **Blocking**
+
 ![image](https://user-images.githubusercontent.com/17781660/104326058-3ddcdb80-5524-11eb-869e-a0eb7437a794.png)
 ![image](https://user-images.githubusercontent.com/17781660/104326096-47664380-5524-11eb-8927-21abc800d3b7.png)
 
 4. **Auto Monitoring**
+
 ![image](https://user-images.githubusercontent.com/17781660/104326404-ac219e00-5524-11eb-89f4-e43631e37754.png)
 ![image](https://user-images.githubusercontent.com/17781660/104326494-c196c800-5524-11eb-9a80-6353959acfdd.png)
