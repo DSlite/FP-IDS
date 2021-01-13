@@ -5,7 +5,7 @@
 
 ## EvilLimiter
 
-Tool untuk melakukan limit terhadap jaringan lokal. Disini saya menambahkan beberapa potongan kode untuk menambah fungsionalitas agar dapat melakukan limitasi terhadap hosts pada jaringan lokal yang melebihi kuota penggunaan.
+Tool dari [bitbrute](https://github.com/bitbrute/) untuk melakukan limit terhadap jaringan lokal. Disini saya menambahkan beberapa potongan kode untuk menambah fungsionalitas agar dapat melakukan limitasi terhadap hosts pada jaringan lokal yang melebihi kuota penggunaan.
 
 ### Requirement
 
